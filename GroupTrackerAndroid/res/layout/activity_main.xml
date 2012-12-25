@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:text="@string/hello_world"
+        tools:context=".MainActivity" />
+        -->
+        
+         <com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0yL4LSpdUwZzvk_fmjHcyjr6jVv3MefKOyerMzQ"
+                 android:id = "@+id/mvMain"
+                 android:enabled = "true"
+                 android:clickable = "true"
+                 />
+         
+
+
+</RelativeLayout>
